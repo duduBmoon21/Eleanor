@@ -1,0 +1,96 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "am": {
+            "title": "ልምድ",
+            "title_long_prefix": "የስራዬ ማጠቃለያ",
+            "title_long": "**ስራ** ልምድ"
+        },
+
+        "om": {
+            "title": "Muuxannoo",
+            "title_long_prefix": "Waraqaa Waliigalaa Hojii koo",
+            "title_long": "Muuxannoo **Hojii**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/logo.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend** Developer",
+                            "info": "Adama Municipal Office",
+                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "tags": ["MySQL", "Laravel"]
+                        },
+                        "am": {
+                            "title": "**ባኪንድ** እንግድ",
+                            "info": "Adama Municipal Office",
+                            "text": "በተለያዩ ደንበኞች ለማቅረብ እና እቅድ ስምንት የስራ አስተናጋጅ ስርአቶችን አንደኛ እና አበልኝ ስምንት የስራ መሰረት በምእመናን አመት እንቁላል ከድርጅታቸው ያህል እንግሊዝ በዚህ በርን አቀናበሩታል."
+                        },
+                        "or": {
+                            "title": "**Backend** Developer",
+                            "info": "Adama Municipal Office",
+                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "tags": ["MySQL", "Laravel"]
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/25/2023",
+                        "end": "10/28/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Graphic** Designer",
+                            "info": "Adobe Inc.",
+                            "text": "Contributed a robust Graphic design for Keoli Advert and Printing Company.",
+                            "tags": ["Photoshop", "Illustrator", "Figma"]
+                        },
+                        "am": {
+                            "title": "**Graphic** Designer",
+                            "info": "Adobe Inc.",
+                            "text": "Contributed a robust Graphic design for Keoli Advert and Printing Company.",
+                            "tags": ["Photoshop", "Illustrator", "Figma"]
+                        },
+                        "or": {
+                            "title": "**Graphic** Designer",
+                            "info": "Adobe Inc.",
+                            "text": "Contributed a robust Graphic design for Keoli Advert and Printing Company.",
+                            "tags": ["Photoshop", "Illustrator", "Figma"]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

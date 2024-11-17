@@ -1,0 +1,291 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Eleanor Tefera!**"
+        },
+
+        "am": {
+           "title": "እንኳን ደህና መጡ!",
+            "title_menu": "ስለ እኔ",
+            "title_long_prefix": "ሰላም...",
+            "title_long": "እኔ **ኤልኖር ተፈራ** ነኝ!"
+        },
+
+        "or": {
+            "title": "Baga nagaan dhuftan!",
+            "title_menu": "Waa'ee koo",
+            "title_long_prefix": "Nagaa...",
+            "title_long": "Ani **Eleanor Tefera** dha!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Adama, Ethiopia",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "eleanortefera",
+                    "links": [
+                        {"href": "mailto:eleanortefera12@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "duduBmoon21",
+                    "links": [
+                        {"href": "https://github.com/duduBmoon21/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "am": {"title": "ስለ እኔ **ትንሽ**…"},
+                "or": {"title": "**Xiqqoo** waa'ee koo..."}
+               
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>Hi, I'm El, a passionate software developer with a love for designing databases and building efficient systems. I thrive on solving challenges in back-end development and creating impactful solutions. When I'm not coding, you'll find me exploring the beauty of nature or dreaming about visiting Switzerland and Ethiopia’s breathtaking landmarks.</b>"},
+                        "am": { "text": "<p>ሰላም፣ እኔ ኤል ነኝ፣ የውሂብ ጎታዎችን ለመንደፍ እና ቀልጣፋ ስርዓቶችን የመገንባት ፍቅር ያለው ጥልቅ የሶፍትዌር ገንቢ። በድህረ-መጨረሻ ልማት ውስጥ ያሉ ተግዳሮቶችን በመፍታት እና ተፅእኖ ፈጣሪ መፍትሄዎችን በመፍጠር እደግፋለሁ። ኮድ ባልፃፍኩበት ጊዜ የተፈጥሮን ውበት ስቃኝ ወይም ስዊዘርላንድን እና የኢትዮጵያን አስደናቂ ምልክቶችን ለመጎብኘት ህልም እያለምኩ ታገኙኛላችሁ።</p>"  },
+                        "om": { "text": "<p>Hi, ani El, nama sooftiweerii hojjechuuf quuqama qabuu fi jaalala kuusdeetaa dizaayinii gochuu fi sirna gahumsa qabu ijaaruu qabudha. Qormaata misooma duubaa furuu fi furmaata dhiibbaa uumuu danda’u uumuu irratti nan dagaaga. Yeroon koodii hin hojjenne, bareedina uumamaa qorachaa ykn Siwiizarlaandi fi mallattoolee Itoophiyaa hafuura namaa baafachiisan daawwachuu abjoodhu na argattu.</p>"}
+                       
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Client **testimonials**"},
+                "am": {"title": "ደንበኛ ** ምስክርነቶች **"},
+                "or": {"title": "Maamila **dhugaa ba'umsa**"}
+              
+            },
+
+            "items": [
+                {
+                    "value": "Sofiya Siraj",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Team Leader at <b>HR in Adama Municipal Office </b>",
+                            "text": "Working with Eleanor was a transformative experience. Her programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "am": {
+                             "info": "Team Leader at <b>HR in Adama Municipal Office </b>",
+                            "text": "ከኤሌኖር ጋር መስራት ለውጥ የሚያመጣ ተሞክሮ ነበር። የእሷ የፕሮግራም ችሎታ እና ቁርጠኝነት ፕሮጀክታችንን ከማሻሻል በተጨማሪ መላውን ቡድን አነሳስቷል።"
+                        },
+                        "or": {
+                            "info": "Team Leader at <b>HR in Adama Municipal Office </b>",
+                            "text": "Eleenor waliin hojjechuun muuxannoo jijjiirama fide ture. Dandeettii sagantaa qopheessuu fi of kennuu ishee pirojektii keenya fooyyessuu qofa osoo hin taane garee guutuu kakaase."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Temam Aman",
+                    "links": [
+                        {"href": "https://github.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Lead Developer at <b>Adama Municipal Office</b>",
+                            "text": "Having Eleanor on our team was an invaluable asset. Her deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "am": {
+                            "info": "Desarrollador Principal en <b>Adama Municipal Office </b>",
+                            "text": "ኤሊኖርን በቡድናችን ውስጥ ማድረጉ በዋጋ የማይተመን ንብረት ነበር። የእሷ ጥልቅ የፕሮግራም አወጣጥ ግንዛቤ እና አማካሪ ፕሮጀክቶቻችንን ከፍ ከማድረግ ባለፈ እያንዳንዱን ፈተና በልበ ሙሉነት እና በፈጠራ እንድንወጣ ኃይል ሰጠን።"
+                        },
+                        "or": {
+                            "info": "Développeur Principal chez <b>Adama Municipal Office </b>",
+                            "text": "Eleenor garee keenya keessatti qabaachuun keenya qabeenya gatii guddaa qabu ture. Hubannoon sagantaa gadi fagoo fi gorsa isheen qabdu pirojektoota keenya ol kaasuu qofa osoo hin taane qormaata hunda ofitti amanamummaa fi kalaqaan akka furru nu dandeessiseera."
+                        }
+                    }
+                },
+
+               
+                {
+                    "value": "Robel Daniel",
+                    "links": [
+                        {"href": "https://dribbble.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Creative Director at <b>Keoli -Advert and Printing Company</b>",
+                            "text": "Eleanor's attention to detail and her innovative thinking brought a fresh perspective to our design process. She truly elevated our team's work and helped us deliver results beyond expectations."
+                        },
+                        "es": {
+                            "info": "Creative Director at <b>Keoli -Advert and Printing Company</b>",
+                            "text": "የኤሌኖር ትኩረት ለዝርዝር ነገር እና የፈጠራ አስተሳሰቧ በንድፍ ሂደታችን ላይ አዲስ እይታን አምጥታለች። የቡድናችንን ስራ በእውነት ከፍ አድርጋ ከጠበቅነው በላይ ውጤት እንድናመጣ ረድታለች።"
+                        },
+                        "or": {
+                            "info": "Creative Director at <b>Keoli -Advert and Printing Company</b>",
+                            "text": "Xiyyeeffannaan Eleenor bal'inaan kennitee fi yaadni kalaqaa isheen adeemsa dizaayinii keenyaaf ilaalcha haaraa fide. dhuguma hojii garee keenyaa ol kaaftee bu'aa eegamee ol akka argannu nu gargaarte."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "am": { "title": "የግል **ፍላጎቶች**" },
+                "or": { "title": "**Fedhii dhuunfaa** " }
+               
+            },
+
+            "items": [
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "listening Music",
+                            "info": "Improve My Mood"
+                        },
+                        "am": {
+                            "title": "ሙዚቃ ማዳመጥ",
+                            "info": "Improve My Mood"
+                        },
+                        "or": {
+                           "title": "Dhaggeeffachuu Muuziqaa",
+                            "info": "Improve My Mood"
+                        }
+                    }
+                },
+
+
+               
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paint-brush",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Illustration",
+                            "info": "Practicing digital art and exploring new styles."
+                        },
+                        "am": {
+                            "title": "Illustration",
+                            "info": "Practicing digital art and exploring new styles."
+                        },
+                        "or": {
+                           "title": "Illustration",
+                            "info": "Practicing digital art and exploring new styles."
+                        }
+                    }
+                },
+
+              
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        },
+                        "am": {
+                              "title": "UX design",
+                            "info": "Studying user experience principles."
+                        },
+                        "or": {
+                             "title": "UX design",
+                            "info": "Studying user experience principles."
+                        }
+                    }
+                }
+
+               
+            ]
+        }
+    ]
+}

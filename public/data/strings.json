@@ -1,0 +1,147 @@
+{
+    "locales": {
+        "en": {
+            "about": "About",
+            "all_categories": "All",
+            "cancel": "Cancel",
+            "close": "Close",
+            "email": "Email",
+            "experience_year_count_less_than_one": "Less than a year experience",
+            "experience_year_count_plural": "{x} years experience",
+            "experience_year_count_singular": "{x} year experience",
+            "filter_by": "Filter by: {x}",
+            "full_screen_enter": "Enter fullscreen",
+            "full_screen_exit": "Exit fullscreen",
+            "leaving_site": "You'll be redirected to an external page in a new tab: <span class='text-muted'><br>«$url»</span><br><br>Please confirm if you'd like to continue.",
+            "magic_cursor_on": "Magic Cursor: On",
+            "message": "Message",
+            "message_sent_error": "There was an error sending your message.",
+            "message_sent_success": "Your message has been sent successfully! I will respond as soon as possible.",
+            "more_info": "More Info",
+            "name": "Name",
+            "next": "Next",
+            "no": "No",
+            "now": "Now",
+            "open_gallery": "Open gallery",
+            "open_link": "Open link?",
+            "previous": "Previous",
+            "proceed": "Proceed",
+            "see_certification": "View certification",
+            "see_more": "See more",
+            "send_message": "Send message",
+            "subject": "Subject",
+            "theme_dark": "Dark Mode",
+            "theme_light": "Light Mode",
+            "toggle_sidebar": "Toggle sidebar",
+            "uhOh": "Uh-oh!",
+            "watch_video": "Watch video",
+            "where_to_find": "Where to find",
+            "yay": "Yay!",
+            "yes": "Yes"
+        },
+
+     
+
+"am": {
+    "about": "ስለ",
+    "all_categories": "ሁሉም",
+    "cancel": "ሰርዝ",
+    "close": "ዝጋ",
+    "email": "ኢሜል",
+    "experience_year_count_less_than_one": "ከአንድ ዓመት በታች ተሞክሮ",
+    "experience_year_count_plural": "{x} ዓመታት ተሞክሮ",
+    "experience_year_count_singular": "{x} ዓመት ተሞክሮ",
+    "filter_by": "በ: {x} ያጣሩ",
+    "full_screen_enter": "በሙሉ ማያ እንቀላቀል",
+    "full_screen_exit": "ከበሙሉ ማያ ውጣ",
+    "leaving_site": "ወደ ውጪ ገጽ በአዲስ ትምተት ትገባላችሁ: <span class='text-muted'><br>«$url»</span><br><br>እባኮትን ማረጋገጥ አለብዎት።",
+    "magic_cursor_on": "ምልክት አንቀጽ: እንቀጽ በተደረገ",
+    "message": "መልእክት",
+    "message_sent_error": "መልእክትዎን ላክተው በኩል ችግር ነበር።",
+    "message_sent_success": "መልእክትዎን ተሳክቶ ተልኳል! በእርስዎ ትንሽ ጊዜ ውስጥ እመልሳለሁ።",
+    "more_info": "ተጨማሪ መረጃ",
+    "name": "ስም",
+    "next": "ቀጣይ",
+    "no": "አይ",
+    "now": "አሁን",
+    "open_gallery": "ፎቶ ማያ ክፈት",
+    "open_link": "አገናኝ ክፈት?",
+    "previous": "የቀደም ያለ",
+    "proceed": "ቀጥል",
+    "see_certification": "ማረጋገጫ እይ",
+    "see_more": "ተጨማሪ እይ",
+    "send_message": "መልእክት ላክ",
+    "subject": "አስተያየት",
+    "theme_dark": "ድምቀት እቅፍ",
+    "theme_light": "ብርሃን እቅፍ",
+    "toggle_sidebar": "ጎን ክፍልን ይቀይሩ",
+    "uhOh": "አይይ!",
+    "watch_video": "ቪዲዮ እይ",
+    "where_to_find": "የሚገኝበት",
+    "yay": "እነሆ!",
+    "yes": "አዎ"
+},
+
+
+"om": {
+    "about": "Waa'ee",
+    "all_categories": "Hunduma",
+    "cancel": "Haqi",
+    "close": "Cufi",
+    "email": "Imeelii",
+    "experience_year_count_less_than_one": "Tajaajila waggaa tokko gad",
+    "experience_year_count_plural": "Tajaajila waggaa {x} ol",
+    "experience_year_count_singular": "Tajaajila waggaa {x}",
+    "filter_by": "Filadhu: {x}",
+    "full_screen_enter": "Bu’uura guutuu seenii",
+    "full_screen_exit": "Bu’uura guutuu gadi lakkisi",
+    "leaving_site": "Fuuldura teessoo biroo cufi: <span class='text-muted'><br>«$url»</span><br><br>Fayyadamuu itti fufuu barbaadaa?",
+    "magic_cursor_on": "Qubee Ijaarsa: Hojjetaa",
+    "message": "Ergaa",
+    "message_sent_error": "Ergaa keessan erguu irratti dogoggorri jira.",
+    "message_sent_success": "Ergaan keessan milkaa’inaan ergameera! Yeroo gabaabaa keessatti deebii kenna.",
+    "more_info": "Odeeffannoo dabalata",
+    "name": "Maqaa",
+    "next": "Booda",
+    "no": "Lakki",
+    "now": "Amma",
+    "open_gallery": "Galmeewwan banuu",
+    "open_link": "Qabxiin bani?",
+    "previous": "Kan dura",
+    "proceed": "Itti fufi",
+    "see_certification": "Dabala beekumsaa ilaali",
+    "see_more": "Kan dabalataa ilaali",
+    "send_message": "Ergaa ergi",
+    "subject": "Yaad-rimee",
+    "theme_dark": "Ifti Gadi Lakkisi",
+    "theme_light": "Ifti Dabala",
+    "toggle_sidebar": "Daqnaa jijjiiri",
+    "uhOh": "Ohoo!",
+    "watch_video": "Viidiyoo ilaali",
+    "where_to_find": "Eessa argamu?",
+    "yay": "Eeyyee!",
+    "yes": "Eeyyee"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

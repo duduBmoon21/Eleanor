@@ -1,0 +1,164 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "am": {
+            "title": "ሽልማቶች",
+            "title_menu": "ምርቆች",
+            "title_long_prefix": "እነዚህ ናቸው የእኔ",
+            "title_long": "የሙያ **ምርቆች**"
+        },
+
+        "or": {
+            "title": "Badhaasa",
+            "title_menu": "Milkaa'inoota",
+            "title_long_prefix": "Kunneen",
+            "title_long": "Milkaa'inoota **Hojii** Koo"
+        }
+
+       
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "am": { "title": "ሴርቲፊክሽ" },
+                "or": { "title": "Mirkaneessitoota" }
+            },
+
+            "items": [
+        
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "09/09/2024"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.udacity.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Programming** Fundamentals",
+                            "text": "Certified Programming Fundamentals. "
+                        },
+                        "am": {
+                
+                            "text": "Certified Programming Fundamentals."
+                        },
+                        "or": {
+                            "text": "Certified Programming Fundamentals."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "11/11/2024"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://hackerrank.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Hacker Rank**",
+                            "text": "Certified Frontend Developer(React)"
+                        },
+                        "am": {
+                            "text": "Certified Frontend Developer(React)"
+                        },
+                        "or": {
+                            "text": "Misooma Frontend Mirkanaa'e(React)."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-envelope",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "07/25/2019"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://africa.unwomen.org/en/where-we-are/eastern-and-southern-africa/liaison-office-to-au-and-uneca/african-girls-can-code-initiative-agcci" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**African Girls Can Code Initiative (AGCCI)**",
+                            "text": "Completed Face to Face Training."
+                        },
+                        "am": {
+                            "text": "Completed Face to Face Training."
+                        },
+                        "or": {
+                            "text": "Completed Face to Face Training.."
+                        }
+                    }
+                }
+             
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "am": { "title": "ሽልማቶች" },
+                "or": { "title": "Badhaasa" }
+              
+            },
+
+            "items": [
+              
+                {
+                    "dates": {
+                        "start": "12/01/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**1st Place**  Oustanding Grade ",
+                            "info": "CGPA of 3.62 of 4.00",
+                            "text": "2023 Acadamic year in The school of Informatics and Electrical Engineering Hachalu Hundesa Campus, Ambo University."
+                        },
+                        "am": {
+                            "title": "**1ኛ**  ዓለም አቀፍ የኤፒአይ ንድፍ ፈተና",
+                            "info": "CGPA of 3.62 of 4.00",
+                            "text": "2023 የትምህርት ዘመን በአምቦ ዩኒቨርሲቲ የኢንፎርማቲክስ እና ኤሌክትሪካል ምህንድስና ትምህርት ቤት ሀጫሉ ሁንዴሳ ካምፓስ።"
+                        },
+                        "or": {
+                            "title": "**Sadarkaa 1ffaa** Qormaata Dizaayinii API Addunyaa",
+                            "info": "CGPA of 3.62 of 4.00",
+                            "text": "2023 Academic year in Mana Barumsaa Informaatiksii fi Elektirikaal Injinariingii Mooraa Hacaaluu Hundeessaa, Yuunivarsiitii Amboo.."
+                        }
+                    }
+                }
+              
+            ]
+        }
+    ]
+}

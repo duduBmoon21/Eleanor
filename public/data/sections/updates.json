@@ -1,0 +1,190 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+
+        "am": {
+            "title": "በቅርብ ጊዜ ሕይወት ",
+            "title_menu": "ዝማኔዎች",
+            "title_long_prefix": "የኔን ተመልከት",
+            "title_long": "የቅርብ ጊዜ **ዝማኔዎች**"
+        },
+
+        "or": {
+            "title": "Jireenya yeroo dhiyoo",
+            "title_menu": "Updates",
+            "title_long_prefix": "Mee ilaalaa koo",
+            "title_long": "Yeroo **dhiyoo **"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tablet-screen-button",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "05",
+                            "info": "Mobile Apps UnderDevelop"
+                        },
+                        "am": {
+                            "title": "05",
+                            "info": "በመገንባት ላይ ያሉ መተግበሪያዎች"
+                        },
+                        "or": {
+                            "title": "05",
+                            "info": "Apps Jala Guddifachaa Jiran"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "65+",
+                            "info": "Repositories on GitHub"
+                        },
+                        "am": {
+                            "title": "65+",
+                            "info": "Repositories on GitHub"
+                        },
+                        "or": {
+                            "title": "65+",
+                            "info": "Repositories on GitHub"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-desktop",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "10+",
+                            "info": "Developed Web based App"
+                        },
+                        "am": {
+                            "title": "10+",
+                            "info": "Developed Web based App"
+                        },
+                        "or": {
+                            "title": "10+",
+                            "info": "Developed Web based App"
+                        }
+                    }
+                }
+                
+               
+
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Facts**" },
+                "am": { "title": "ፈጣን ** እውነታዎች**" },
+                "or": { "title": "Saffisaa **Dhugaa**" }
+                
+            },
+
+            "items": [
+               
+
+                
+                {
+                    "dates": {
+                        "start": "11/05/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new **mobile project**!",
+                            "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
+                        },
+                        "am": {
+                            "title": "በአዲስ **የሞባይል መተግበሪያ ፕሮጀክት ** ላይ በመስራት ላይ!",
+                            "text": "በአሁኑ ጊዜ የተጠቃሚዎችን ልምድ ለማሳደግ እና የተወሰኑ የገበያ ፍላጎቶችን ለማሟላት ያለመ አዳዲስ ባህሪያትን እና ለተጠቃሚ ምቹ የሆነ ዲዛይን የሚያጠቃልል የሞባይል መተግበሪያ በማዘጋጀት ላይ."
+                        },
+                        "or": {
+                            "title": "**Pirojektii Mobile App**  haaraa irratti hojjechaa jira",
+                            "text": "Yeroo ammaa kana application moobaayilaa kan amaloota kalaqaa fi dizaayinii fayyadamtootaaf mijatu walitti fidu, muuxannoo fayyadamtootaa guddisuu fi fedhii gabaa addaa furuuf kan kaayyeffate hojjechaa jira."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "12/12/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched my **personal website**!",
+                            "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
+                        },
+                        "am": {
+                            "title": "የእኔን **የግል ድህረ ገጽ** ጀምሯል!",
+                            "text": "ፕሮጀክቶቼን ለማሳየት፣ ጉዞዬን በፕሮግራም ለማካፈል እና ለሌሎች ገንቢዎች ግብዓቶችን ለማቅረብ የግል ድር ጣቢያ ፈጠርኩ።."
+                        },
+                        "or": {
+                            "title": "**Weebsaayitii dhuunfaa** koo jalqabe!",
+                            "text": "Pirojektoota koo agarsiisuuf, imala koo sagantaa qopheessuu keessatti qooduuf, fi qabeenya hojjettoota waliin hojjetaniif kennuudhaaf marsariitii dhuunfaa uume."
+                        }
+                    }
+                }
+                ,
+
+                {
+                    "dates": {
+                        "start": "05/12/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Develop a FULL **Pharmacy Store and Sell Management System**!",
+                            "text": "Created a FULL Pharmacy Store and Sell Management System."
+                        },
+                        "or": {
+                            "title": "Develop a FULL **Pharmacy Store and Sell Management System**!",
+                            "text": "Created a FULL Pharmacy Store and Sell Management System."
+                        },
+                        "am": {
+                            "title": "Develop a FULL **Pharmacy Store and Sell Management System**!",
+                            "text": "Created a FULL Pharmacy Store and Sell Management System."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
