@@ -1,0 +1,119 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "am": {
+            "title": "ተገናኝ",
+            "title_long_prefix": "አያመንቱ",
+            "title_long": "**አግኙ**ኝ።"
+        },
+
+        "or": {
+            "title": "Quunnamuu",
+            "title_long_prefix": "Dubbatti hin jedhinaa",
+            "title_long": "Na **qunnamaa**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "am": {"title": "**መልእክት** ላኩልኝ"},
+                "or": {"title": " **Ergaa** naaf ergaa"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "am": {"title": "ወይም  **ከፈለግክ**..."},
+                "or": {"title": "Yookaan yoo **feetan**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+251 948 89 78 04",
+                    "links": [
+                        {"href": "tel:+251948897804"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "am": {"title": "ስልክ"},
+                        "or": {"title": "Bilbila"}
+                    }
+                },
+
+                {
+                    "value": "eleanortefera12@gmail.com",
+                    "links": [
+                        {"href": "mailto:eleanortefera12@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "am": {"title": "ኢ-ሜይል"},
+                        "or": {"title": "E-mail"}
+                    }
+                },
+
+                {
+                    "value": "eleanortefera21",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/eleanortefera21/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+               
+
+                {
+                    "value": "@duduMoon_21",
+                    "links": [
+                        {"href": "https://instagram.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                }
+
+               
+            ]
+        }
+    ]
+}

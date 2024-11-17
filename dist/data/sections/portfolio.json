@@ -1,0 +1,290 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "am": {
+            "title": "Portafolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portafolio**"
+        },
+
+        "or": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "am": {"singular": "App", "plural": "Apps"},
+                        "or": {"singular": "App", "plural": "Apps"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "am": {"singular": "ድህረ ገፅ", "plural": "ድህረ ገፅ"},
+                        "or": {"singular": "Website", "plural": "Web"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "am": {"singular": "መገልገያ", "plural": "መገልገያዎች"},
+                        "or": {"singular": "Faayidaa", "plural": "Faayidaa"}
+                    }
+                }
+            ],
+
+            "items": [
+               
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    
+
+                    "locales": {
+                        "en": {
+                            "title": "MailM8",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        },
+                        "am": {
+                            "title": "MailM8",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]   },
+                        "or": {
+                            "title": "MailM8",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]}
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-brands fa-flutter",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Food Delivering App",
+                            "text": "A fully-featured mobile app that allows users to order food from restaurants and have it delivered to their location",
+                            "tags": ["Flutter", "Firbase"]
+                        },
+                        "am": {
+                            "title": "Food Delivering App",
+                            "text": "A fully-featured mobile app that allows users to order food from restaurants and have it delivered to their location.",
+                            "tags": ["Flutter", "Firbase"]
+                        },
+                        "or": {
+                            "title": "Food Delivering App",
+                            "text": "A fully-featured mobile app that allows users to order food from restaurants and have it delivered to their location.",
+                            "tags": ["Flutter", "Firbase"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-brands fa-laravel",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": ""}
+                    ],
+
+                   
+
+                    "locales": {
+                        "en": {
+                            "title": "Smart- School MGS",
+                            "text": "It allows school to manage registration, admissions, academic calendar, attendance, and more."
+                           
+                        },
+                        "or": {
+                            "title": "Smart- School MGS",
+                            "text": "It allows school to manage registration, admissions, academic calendar, attendance, and more."
+                        
+                        },
+                        "am": {
+                            "title": "Smart- School MGS",
+                            "text": "It allows school to manage registration, admissions, academic calendar, attendance, and more."
+                        
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-brands fa-flutter",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Uber-like application(Rider, Driver and Admin Panel(web))",
+                            "text": "This app supports fetching the user's current location and locating nearby drivers. Primary use case of this application is to help daily commuters book a ride and reach their destination, such as work place, home, cafe, or any place the user visits regulary, in the quickest way and least amount of taps possible.",
+                            "tags": ["Flutter"]
+                        },
+                        "am": {
+                            "title": "Uber-like application(Rider, Driver and Admin Panel(web))",
+                            "text": "This app supports fetching the user's current location and locating nearby drivers. Primary use case of this application is to help daily commuters book a ride and reach their destination, such as work place, home, cafe, or any place the user visits regulary, in the quickest way and least amount of taps possible.",
+                            "tags": ["Flutter"]
+                        },
+                        "or": {
+                            "title": "Uber-like application(Rider, Driver and Admin Panel(web))",
+                            "text": "This app supports fetching the user's current location and locating nearby drivers. Primary use case of this application is to help daily commuters book a ride and reach their destination, such as work place, home, cafe, or any place the user visits regulary, in the quickest way and least amount of taps possible.",
+                            "tags": ["Flutter"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-brands fa-laravel",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "#"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Du-ProjMgs",
+                            "text": "Project management with user access control.<b> Task groups within projects (e.g., Todo, In progress, QA, Done, Deployed).</b>Real-time notifications and task updates via web sockets.Personalized My Tasks page for each user."
+                        
+                        },
+                        "am": {
+                            "title": "Du-ProjMgs",
+                            "text": "Project management with user access control.<b> Task groups within projects (e.g., Todo, In progress, QA, Done, Deployed).</b>Real-time notifications and task updates via web sockets.Personalized My Tasks page for each user."
+                        
+                        },
+                        "or": {
+                            "title": "Du-ProjMgs",
+                            "text": "Project management with user access control.<b> Task groups within projects (e.g., Todo, In progress, QA, Done, Deployed).</b>Real-time notifications and task updates via web sockets.Personalized My Tasks page for each user."
+                        
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pills",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "#"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Du-PharmaStore",
+                            "text": "A dynamic Pharmacy Store and Sell Management System developed with <b>Laravel</b> Product Management: Created modules for adding, updating, and categorizing products and <b> Purchases and Sales: Developed tracking for purchase orders and sales transacions </b>.<b> Reporting: Generated reports for sales, inventory, and purchase history</b>",
+                            "tags": ["Laravel", "Alpine-Blade", "Vite"]
+                        },
+                        "am": {
+                            "title": "Du-PharmaStore",
+                            "text": "A dynamic Pharmacy Store and Sell Management System developed with <b>Laravel</b> Product Management: Created modules for adding, updating, and categorizing products and <b> Purchases and Sales: Developed tracking for purchase orders and sales transacions </b>.<b> Reporting: Generated reports for sales, inventory, and purchase history</b>.",
+                            "tags": ["Laravel", "Alpine-Blade", "Vite"]
+                        },
+                        "or": {
+                            "title": "Du-PharmaStore",
+                            "text": "A dynamic Pharmacy Store and Sell Management System developed with <b>Laravel</b> Product Management: Created modules for adding, updating, and categorizing products and <b> Purchases and Sales: Developed tracking for purchase orders and sales transacions </b>.<b> Reporting: Generated reports for sales, inventory, and purchase history</b>.",
+                            "tags": ["Laravel", "Alpine-Blade", "Vite"]
+                        }
+                    }
+                }
+
+               
+
+               
+            ]
+        }
+    ]
+}

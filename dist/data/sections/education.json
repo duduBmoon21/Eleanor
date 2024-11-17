@@ -1,0 +1,101 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "am": {
+            "title": "ትምህርት",
+            "title_long_prefix": "ይህ የኔ ነው።",
+            "title_long": "የትምህርት** ደረጃ**"
+        },
+
+        "or": {
+            "title": "Sadarkaa barnootaa",
+            "title_long_prefix": "Kun kooti",
+            "title_long": "**Seenaa ** Barnootaa"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "10/01/2019",
+                        "end": "07/19/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Ambo University",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                          
+                            "tags": []
+                        },
+                        "am": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Ambo University",
+                            "text": "ኮምፒውተር ሳይንስ ውስጥ የተሰጠውን የባችለር ዲግሪ አግኝቻለሁ፣ በአልጎሪዝሞች፣ የውሂብ አዋጅ መዋቅሮች፣ የሶፍትዌር ኢንጂነሪንግ፣ እና የድህረ ገፅ እቅፍ ላይ ትኩረት በመስጠት። በልዩ የፕሮግራሚንግ ፕሮጀክቶች እና በምሳሌ ካምፕ ላይ በተለያዩ ስራዎች የተሞላ እጅ-on ተሞክሮ አግኝቻለሁ።",
+                            "tags": null
+                        },
+                        "or": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Ambo University",
+                             "text": "Digrii barataa koompitaraa irratti xiyyeeffachuun, kan aligooriidimii, sirna deetaa, injinariingii sagantaa, fi guddina marsariitii keessatti argame. Hojiiwwan barnoota qabatamaa fi kaampii shaakalaa adda addaan muuxannoo qabatamaa argameera.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/13/2024",
+                        "end": "09/29/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pragramming Fundamentals **Nanodegree**",
+                            "info": "Udacity",
+                            "text": "Completed an intensive Nanodegree program focused on Pragramming Fundamentals, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices."
+                           
+                        },
+                        "am": {
+                            "title": "Pragramming Fundamentals **Nanodegree**",
+                            "info": "Udacity",
+                            "text": "የPHP ልምድ የሚያካትት በጣም ከባድ የNanodegree ፕሮግራምን አጠናቅቄአለሁ፣ በማኅበረ-ሰብ እና ቅኝ እቅፍ ላይ በዝርዝር እቅፍ የተያዘ እንደ ቅድሚያ የተካተተ እና ቅድመ እቅፍ የተሞላ። እነዚህ ክርክሮች በአሁኑ ዘመናዊ የPHP ዕቅፍ ሥርዓት ላይ ትንሹን የአሰልጣኝ መሠረት እንዲሆን አደረጉ።"
+                        
+                        },
+                        "or": {
+                           "title": "Pragramming Fundamentals **Nanodegree**",
+                            "info": "Udacity",
+                            "text": "Barnoota Nanodegree cimaa, kan guddina PHP irratti xiyyeeffate, barachuu danda'eera. Barnootichi hojii dachaatti xiyyeeffannaa, tooftaa deetaa, fi hojiirra oolchuu applikeshinii marsariiti kan hammateedha. Sagantaan kun bu'uura jabaa hojii PHP mo'aa keessatti naaf kenneera."
+                      
+                        }
+                    }
+                }
+
+                
+
+               
+            ]
+        }
+    ]
+}
