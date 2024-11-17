@@ -1,27 +1,24 @@
-on: push
-name: 🚀 Deploy website on push
+name: FTP Deploy
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v3
-
-    - name: Install Node.js 
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20.5'
-      
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run build
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ftp.elcreates.com 
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        
+      - name: Build Project
+        run: npm run build # Adjust based on your project's build step
+        
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.elcreates.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
