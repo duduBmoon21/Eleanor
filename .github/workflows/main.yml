@@ -1,25 +1,36 @@
-name: FTP Deploy
+name: Deploy Vite App to FTP
 
 on:
   push:
     branches:
-      - main
+      - main # Deploy only when changes are pushed to the main branch
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout the latest code from the repository
       - name: Checkout Code
         uses: actions/checkout@v3
-        
-      - name: Build Project
-        run: npm install
-             npm run build
-        
+
+      # Step 2: Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18 # Use the Node.js version your project requires
+
+      # Step 3: Install dependencies and build the Vite app
+      - name: Install Dependencies and Build
+        run: |
+          npm install
+          npm run build # Build the app; ensure your package.json has this script
+
+      # Step 4: Deploy the built files to the FTP server
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.elcreates.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
+          local-dir: ./dist # Default build output directory from Vite
